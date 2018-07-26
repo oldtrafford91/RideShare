@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F68BC12DC0A6BC5E152BB5A /* Pods_RideShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CDC895B89FF176BD4B3FC8 /* Pods_RideShare.framework */; };
 		E1280023210A2F2100B1EB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1280022210A2F2100B1EB6A /* AppDelegate.swift */; };
 		E1280025210A2F2100B1EB6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1280024210A2F2100B1EB6A /* ViewController.swift */; };
 		E1280028210A2F2100B1EB6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1280026210A2F2100B1EB6A /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183C594DEC3CB4E9CFED30AC /* Pods-RideShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-RideShare/Pods-RideShare.release.xcconfig"; sourceTree = "<group>"; };
+		37CDC895B89FF176BD4B3FC8 /* Pods_RideShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RideShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD654B8C918067DA3088908 /* Pods-RideShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RideShare/Pods-RideShare.debug.xcconfig"; sourceTree = "<group>"; };
 		E128001F210A2F2100B1EB6A /* RideShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1280022210A2F2100B1EB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1280024210A2F2100B1EB6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F68BC12DC0A6BC5E152BB5A /* Pods_RideShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7BDA583A0C157DEF9D32EDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BD654B8C918067DA3088908 /* Pods-RideShare.debug.xcconfig */,
+				183C594DEC3CB4E9CFED30AC /* Pods-RideShare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1464544983631251FA43391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37CDC895B89FF176BD4B3FC8 /* Pods_RideShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1280016210A2F2100B1EB6A = {
 			isa = PBXGroup;
 			children = (
 				E1280021210A2F2100B1EB6A /* RideShare */,
 				E1280020210A2F2100B1EB6A /* Products */,
+				A7BDA583A0C157DEF9D32EDA /* Pods */,
+				D1464544983631251FA43391 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1280031210A2F2500B1EB6A /* Build configuration list for PBXNativeTarget "RideShare" */;
 			buildPhases = (
+				480F80FEECDFA1D64AA261CC /* [CP] Check Pods Manifest.lock */,
 				E128001B210A2F2100B1EB6A /* Sources */,
 				E128001C210A2F2100B1EB6A /* Frameworks */,
 				E128001D210A2F2100B1EB6A /* Resources */,
+				590C0D5A1830C53F31D9D52E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		480F80FEECDFA1D64AA261CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RideShare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		590C0D5A1830C53F31D9D52E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RideShare/Pods-RideShare-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RideShare/Pods-RideShare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E128001B210A2F2100B1EB6A /* Sources */ = {
@@ -280,6 +353,7 @@
 		};
 		E1280032210A2F2500B1EB6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD654B8C918067DA3088908 /* Pods-RideShare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +372,7 @@
 		};
 		E1280033210A2F2500B1EB6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183C594DEC3CB4E9CFED30AC /* Pods-RideShare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
