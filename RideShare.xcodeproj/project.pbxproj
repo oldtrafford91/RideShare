@@ -78,14 +78,38 @@
 		E1280021210A2F2100B1EB6A /* RideShare */ = {
 			isa = PBXGroup;
 			children = (
+				E1280036210BB44F00B1EB6A /* Controller */,
+				E1280035210BB44A00B1EB6A /* View */,
+				E1280034210BB43E00B1EB6A /* Model */,
 				E1280022210A2F2100B1EB6A /* AppDelegate.swift */,
-				E1280024210A2F2100B1EB6A /* ViewController.swift */,
 				E1280026210A2F2100B1EB6A /* Main.storyboard */,
 				E1280029210A2F2500B1EB6A /* Assets.xcassets */,
 				E128002B210A2F2500B1EB6A /* LaunchScreen.storyboard */,
 				E128002E210A2F2500B1EB6A /* Info.plist */,
 			);
 			path = RideShare;
+			sourceTree = "<group>";
+		};
+		E1280034210BB43E00B1EB6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1280035210BB44A00B1EB6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1280036210BB44F00B1EB6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1280024210A2F2100B1EB6A /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
