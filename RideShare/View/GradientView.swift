@@ -6,7 +6,8 @@
 //  Copyright © 2018 Tran Tuan Hai. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
 
 class GradientView: UIView {
   let gradientLayer = CAGradientLayer()
