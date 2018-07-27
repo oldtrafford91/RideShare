@@ -7,7 +7,7 @@ target 'RideShare' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
-  pod 'RevealingSplashView'
+  pod 'RevealingSplashView', :git => 'https://github.com/oldtrafford91/RevealingSplashView.git'
 
   # Pods for RideShare
 
