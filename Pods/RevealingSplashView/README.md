@@ -29,6 +29,10 @@ If you are using Swift 2.3, please use the `0.0.6` release.
 
 :metal: Usage
 ---
+
+### Video Tutorial
+`Rebeloper` created a nice [Video Tutorial](https://www.youtube.com/watch?v=jtCsh4R8UWo) where you can also learn how to use this control!. You can also follow the docs below
+
 Usage is pretty easy, just initialize your `RevealingSplashView` in your entry `ViewController` and in your `viewDidLoad()` function add it to your view. Then call `startAnimation()`:
 
 ```swift
@@ -134,6 +138,13 @@ Its the default animation that `Twitter` use for their app. If `animationType` i
 ### HeartBeat
 HeartBeat like animation, unlike the other animations, this `special` animation allows you to continue to animate until a function its called.
 This could be more entertaining to the user than having a quick launch and waiting on a spinning wheel if the app needs to fetch more data.
+
+To use the Heartbeat animation you should `startAnimation()` as normal and then proceed with your network or background job. When you are done, just call
+```swift
+.heartAttack = true
+```
+And the splashview should dismiss.
+
 
 ![HeartBeatAnimation](/Web/heartBeat.gif)
 
