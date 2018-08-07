@@ -15,6 +15,7 @@
 		E128002D210A2F2500B1EB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E128002B210A2F2500B1EB6A /* LaunchScreen.storyboard */; };
 		E128003C210BD9AB00B1EB6A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E128003B210BD9AB00B1EB6A /* GradientView.swift */; };
 		E1280065210D685900B1EB6A /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1280064210D685900B1EB6A /* RoundedImageView.swift */; };
+		E156920F21191FBA0040B5B1 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156920E21191FBA0040B5B1 /* RoundedShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E128002E210A2F2500B1EB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E128003B210BD9AB00B1EB6A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		E1280064210D685900B1EB6A /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
+		E156920E21191FBA0040B5B1 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				E128003B210BD9AB00B1EB6A /* GradientView.swift */,
+				E156920E21191FBA0040B5B1 /* RoundedShadowView.swift */,
 				E1280064210D685900B1EB6A /* RoundedImageView.swift */,
 			);
 			path = View;
@@ -240,6 +243,7 @@
 			files = (
 				E1280065210D685900B1EB6A /* RoundedImageView.swift in Sources */,
 				E1280025210A2F2100B1EB6A /* ViewController.swift in Sources */,
+				E156920F21191FBA0040B5B1 /* RoundedShadowView.swift in Sources */,
 				E1280023210A2F2100B1EB6A /* AppDelegate.swift in Sources */,
 				E128003C210BD9AB00B1EB6A /* GradientView.swift in Sources */,
 			);

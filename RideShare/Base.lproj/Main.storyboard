@@ -66,7 +66,7 @@
                                     <constraint firstAttribute="height" constant="30" id="F8l-DI-qo6"/>
                                 </constraints>
                             </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CNP-SO-vSb" userLabel="Select Location Background View">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CNP-SO-vSb" userLabel="Select Location Background View" customClass="RoundedShadowView" customModule="RideShare" customModuleProvider="target">
                                 <rect key="frame" x="20" y="76" width="374" height="81"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Fhb-wx-uME" userLabel="Select Location Stack View">
