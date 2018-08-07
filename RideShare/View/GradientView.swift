@@ -1,30 +1,15 @@
-//
-//  GradientView.swift
-//  RideShare
-//
-//  Created by Tran Tuan Hai on 7/28/18.
-//  Copyright © 2018 Tran Tuan Hai. All rights reserved.
-//
-
 import UIKit
-
 
 class GradientView: UIView {
   let gradientLayer = CAGradientLayer()
   
-  override init(frame: CGRect) {
-    super.init(frame: frame)
-    print(#function)
-  }
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
-    print(#function)
     setupGradientView()
   }
   
   override func awakeFromNib() {
     super.awakeFromNib()
-    print(#function)
     setupGradientView()
   }
   
