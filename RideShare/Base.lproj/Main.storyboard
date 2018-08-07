@@ -75,7 +75,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vHU-IM-5Js" userLabel="My Location Stack View">
                                                 <rect key="frame" x="0.0" y="0.0" width="344" height="30"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dIT-Bk-HkF" userLabel="Indicator View">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dIT-Bk-HkF" userLabel="Indicator View" customClass="CircleView" customModule="RideShare" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="7.6666666666666714" width="15" height="15"/>
                                                         <color key="backgroundColor" red="0.18944601052717036" green="1" blue="0.14833490987725839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
@@ -104,7 +104,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EmQ-9A-VtZ" userLabel="Destination Stack View">
                                                 <rect key="frame" x="0.0" y="51" width="344" height="30"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhG-zJ-vl0" userLabel="Indicator View">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhG-zJ-vl0" userLabel="Indicator View" customClass="CircleView" customModule="RideShare" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="7.6666666666666572" width="15" height="15"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
