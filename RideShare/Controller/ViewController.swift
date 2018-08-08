@@ -7,6 +7,9 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
   }
+  @IBAction func testButton(_ sender: RoundedShadowButton) {
+    sender.animate(loading: true, message: nil)
+  }
 }
 
 extension ViewController: MKMapViewDelegate {
