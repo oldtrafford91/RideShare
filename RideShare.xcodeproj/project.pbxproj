@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7F68BC12DC0A6BC5E152BB5A /* Pods_RideShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CDC895B89FF176BD4B3FC8 /* Pods_RideShare.framework */; };
 		E1280023210A2F2100B1EB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1280022210A2F2100B1EB6A /* AppDelegate.swift */; };
-		E1280025210A2F2100B1EB6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1280024210A2F2100B1EB6A /* ViewController.swift */; };
+		E1280025210A2F2100B1EB6A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1280024210A2F2100B1EB6A /* HomeViewController.swift */; };
 		E1280028210A2F2100B1EB6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1280026210A2F2100B1EB6A /* Main.storyboard */; };
 		E128002A210A2F2500B1EB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1280029210A2F2500B1EB6A /* Assets.xcassets */; };
 		E128002D210A2F2500B1EB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E128002B210A2F2500B1EB6A /* LaunchScreen.storyboard */; };
@@ -26,7 +26,7 @@
 		3BD654B8C918067DA3088908 /* Pods-RideShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RideShare/Pods-RideShare.debug.xcconfig"; sourceTree = "<group>"; };
 		E128001F210A2F2100B1EB6A /* RideShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1280022210A2F2100B1EB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1280024210A2F2100B1EB6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1280024210A2F2100B1EB6A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E1280027210A2F2100B1EB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1280029210A2F2500B1EB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E128002C210A2F2500B1EB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		E1280036210BB44F00B1EB6A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E1280024210A2F2100B1EB6A /* ViewController.swift */,
+				E1280024210A2F2100B1EB6A /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -250,7 +250,7 @@
 				E1569213211925CC0040B5B1 /* RoundedShadowButton.swift in Sources */,
 				E1569211211922E30040B5B1 /* CircleView.swift in Sources */,
 				E1280065210D685900B1EB6A /* RoundedImageView.swift in Sources */,
-				E1280025210A2F2100B1EB6A /* ViewController.swift in Sources */,
+				E1280025210A2F2100B1EB6A /* HomeViewController.swift in Sources */,
 				E156920F21191FBA0040B5B1 /* RoundedShadowView.swift in Sources */,
 				E1280023210A2F2100B1EB6A /* AppDelegate.swift in Sources */,
 				E128003C210BD9AB00B1EB6A /* GradientView.swift in Sources */,

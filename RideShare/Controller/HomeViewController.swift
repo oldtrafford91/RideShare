@@ -1,7 +1,7 @@
 import UIKit
 import MapKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
   @IBOutlet weak var mapView: MKMapView!
   
   override func viewDidLoad() {
@@ -12,5 +12,5 @@ class ViewController: UIViewController {
   }
 }
 
-extension ViewController: MKMapViewDelegate {
+extension HomeViewController: MKMapViewDelegate {
 }
