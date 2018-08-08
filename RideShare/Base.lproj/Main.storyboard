@@ -149,7 +149,7 @@
                                 </constraints>
                                 <state key="normal" image="centerMapBtn"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ypt-CV-HAk">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ypt-CV-HAk" customClass="RoundedShadowButton" customModule="RideShare" customModuleProvider="target">
                                 <rect key="frame" x="20" y="656" width="374" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -159,6 +159,9 @@
                                 <state key="normal" title="REQUEST RIDE">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="testButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dfa-Bq-dL4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -179,8 +182,8 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dD5-Bn-eS3" secondAttribute="trailing" constant="10" id="hZF-px-WOJ"/>
                             <constraint firstItem="p5g-Rj-Hdz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="iFm-UT-8Ir"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vfy-d0-QZu" secondAttribute="trailing" constant="20" id="q1m-kR-wns"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ypt-CV-HAk" secondAttribute="trailing" constant="20" id="xOk-Tt-V7N"/>
-                            <constraint firstItem="Ypt-CV-HAk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zWS-bS-yGD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ypt-CV-HAk" secondAttribute="trailing" constant="20" identifier="RequestButtonTrailling" id="xOk-Tt-V7N"/>
+                            <constraint firstItem="Ypt-CV-HAk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" identifier="RequestButtonLeading" id="zWS-bS-yGD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
