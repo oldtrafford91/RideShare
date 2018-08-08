@@ -149,54 +149,41 @@
                                 </constraints>
                                 <state key="normal" image="centerMapBtn"/>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R4g-Yw-6jf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ypt-CV-HAk" customClass="RoundedShadowButton" customModule="RideShare" customModuleProvider="target">
                                 <rect key="frame" x="20" y="656" width="374" height="60"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ypt-CV-HAk" customClass="RoundedShadowButton" customModule="RideShare" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="45Y-3W-osN"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="30"/>
-                                        <state key="normal" title="REQUEST RIDE">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PsK-cQ-9V8"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Ypt-CV-HAk" secondAttribute="bottom" id="2PW-Pn-d2H"/>
-                                    <constraint firstItem="Ypt-CV-HAk" firstAttribute="top" secondItem="R4g-Yw-6jf" secondAttribute="top" id="6FK-CM-2vs"/>
-                                    <constraint firstItem="Ypt-CV-HAk" firstAttribute="leading" secondItem="R4g-Yw-6jf" secondAttribute="leading" id="TGG-ul-Jz7"/>
-                                    <constraint firstAttribute="height" constant="60" id="XKq-oE-Il9"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ypt-CV-HAk" secondAttribute="trailing" id="ksr-XP-g6p"/>
+                                    <constraint firstAttribute="height" constant="60" id="45Y-3W-osN"/>
                                 </constraints>
-                            </view>
+                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="30"/>
+                                <state key="normal" title="REQUEST RIDE">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="testButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dfa-Bq-dL4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="p5g-Rj-Hdz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0o1-oZ-nDr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="h0c-jd-9Ld" secondAttribute="top" id="1xS-n1-4kb"/>
                             <constraint firstItem="h0c-jd-9Ld" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2Sb-yE-wjW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="R4g-Yw-6jf" secondAttribute="bottom" constant="20" id="8OK-IC-hJi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ypt-CV-HAk" secondAttribute="bottom" constant="20" id="76C-Hf-vmk"/>
+                            <constraint firstItem="Ypt-CV-HAk" firstAttribute="top" secondItem="dD5-Bn-eS3" secondAttribute="bottom" constant="10" id="A0T-Lt-Xhg"/>
                             <constraint firstItem="vfy-d0-QZu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="KXa-cA-4e9"/>
-                            <constraint firstItem="R4g-Yw-6jf" firstAttribute="top" secondItem="dD5-Bn-eS3" secondAttribute="bottom" constant="10" id="Lrk-du-kVO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h0c-jd-9Ld" secondAttribute="trailing" id="QOA-9a-TZJ"/>
                             <constraint firstItem="vfy-d0-QZu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ruz-x2-BRb"/>
                             <constraint firstItem="p5g-Rj-Hdz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="VLk-eG-8TD"/>
                             <constraint firstItem="CNP-SO-vSb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="WAv-Fv-2A2"/>
                             <constraint firstItem="CNP-SO-vSb" firstAttribute="top" secondItem="vfy-d0-QZu" secondAttribute="bottom" constant="26" id="XV4-tY-WFR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CNP-SO-vSb" secondAttribute="trailing" constant="20" id="ZKt-Fl-LcE"/>
-                            <constraint firstItem="R4g-Yw-6jf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bx4-da-vs9"/>
                             <constraint firstItem="p5g-Rj-Hdz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gGV-sM-ps2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dD5-Bn-eS3" secondAttribute="trailing" constant="10" id="hZF-px-WOJ"/>
                             <constraint firstItem="p5g-Rj-Hdz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="iFm-UT-8Ir"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vfy-d0-QZu" secondAttribute="trailing" constant="20" id="q1m-kR-wns"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R4g-Yw-6jf" secondAttribute="trailing" constant="20" id="qx9-42-XE1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ypt-CV-HAk" secondAttribute="trailing" constant="20" identifier="RequestButtonTrailling" id="xOk-Tt-V7N"/>
+                            <constraint firstItem="Ypt-CV-HAk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" identifier="RequestButtonLeading" id="zWS-bS-yGD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
