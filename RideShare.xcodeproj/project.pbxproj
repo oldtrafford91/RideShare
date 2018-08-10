@@ -19,6 +19,7 @@
 		E1569211211922E30040B5B1 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1569210211922E30040B5B1 /* CircleView.swift */; };
 		E1569213211925CC0040B5B1 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1569212211925CC0040B5B1 /* RoundedShadowButton.swift */; };
 		E16DF54D211D1738005CF76B /* LeftSidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16DF54C211D1738005CF76B /* LeftSidePanelViewController.swift */; };
+		E16DF54F211D18D2005CF76B /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16DF54E211D18D2005CF76B /* ContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E1569210211922E30040B5B1 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		E1569212211925CC0040B5B1 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
 		E16DF54C211D1738005CF76B /* LeftSidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelViewController.swift; sourceTree = "<group>"; };
+		E16DF54E211D18D2005CF76B /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			children = (
 				E1280024210A2F2100B1EB6A /* HomeViewController.swift */,
 				E16DF54C211D1738005CF76B /* LeftSidePanelViewController.swift */,
+				E16DF54E211D18D2005CF76B /* ContainerViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				E1280025210A2F2100B1EB6A /* HomeViewController.swift in Sources */,
 				E156920F21191FBA0040B5B1 /* RoundedShadowView.swift in Sources */,
 				E1280023210A2F2100B1EB6A /* AppDelegate.swift in Sources */,
+				E16DF54F211D18D2005CF76B /* ContainerViewController.swift in Sources */,
 				E128003C210BD9AB00B1EB6A /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
