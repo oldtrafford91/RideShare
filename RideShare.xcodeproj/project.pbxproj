@@ -18,6 +18,7 @@
 		E156920F21191FBA0040B5B1 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156920E21191FBA0040B5B1 /* RoundedShadowView.swift */; };
 		E1569211211922E30040B5B1 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1569210211922E30040B5B1 /* CircleView.swift */; };
 		E1569213211925CC0040B5B1 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1569212211925CC0040B5B1 /* RoundedShadowButton.swift */; };
+		E16DF54D211D1738005CF76B /* LeftSidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16DF54C211D1738005CF76B /* LeftSidePanelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E156920E21191FBA0040B5B1 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		E1569210211922E30040B5B1 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		E1569212211925CC0040B5B1 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		E16DF54C211D1738005CF76B /* LeftSidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				E1280024210A2F2100B1EB6A /* HomeViewController.swift */,
+				E16DF54C211D1738005CF76B /* LeftSidePanelViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1569213211925CC0040B5B1 /* RoundedShadowButton.swift in Sources */,
+				E16DF54D211D1738005CF76B /* LeftSidePanelViewController.swift in Sources */,
 				E1569211211922E30040B5B1 /* CircleView.swift in Sources */,
 				E1280065210D685900B1EB6A /* RoundedImageView.swift in Sources */,
 				E1280025210A2F2100B1EB6A /* HomeViewController.swift in Sources */,
