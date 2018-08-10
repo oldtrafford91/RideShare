@@ -1,5 +1,9 @@
 import UIKit
 
+enum SlideOutState {
+  case collapsed
+  case leftPanelExpanded
+}
 class ContainerViewController: UIViewController {
 }
 
