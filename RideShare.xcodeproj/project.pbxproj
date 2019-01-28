@@ -20,6 +20,7 @@
 		E1569213211925CC0040B5B1 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1569212211925CC0040B5B1 /* RoundedShadowButton.swift */; };
 		E16DF54D211D1738005CF76B /* LeftSidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16DF54C211D1738005CF76B /* LeftSidePanelViewController.swift */; };
 		E16DF54F211D18D2005CF76B /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16DF54E211D18D2005CF76B /* ContainerViewController.swift */; };
+		E1B306DF21FF8127004C1AA0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B306DE21FF8127004C1AA0 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E1569212211925CC0040B5B1 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
 		E16DF54C211D1738005CF76B /* LeftSidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelViewController.swift; sourceTree = "<group>"; };
 		E16DF54E211D18D2005CF76B /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		E1B306DE21FF8127004C1AA0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E1280029210A2F2500B1EB6A /* Assets.xcassets */,
 				E128002B210A2F2500B1EB6A /* LaunchScreen.storyboard */,
 				E128002E210A2F2500B1EB6A /* Info.plist */,
+				E1B306DE21FF8127004C1AA0 /* Extensions.swift */,
 			);
 			path = RideShare;
 			sourceTree = "<group>";
@@ -228,16 +231,18 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RideShare/Pods-RideShare-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -258,6 +263,7 @@
 				E1569211211922E30040B5B1 /* CircleView.swift in Sources */,
 				E1280065210D685900B1EB6A /* RoundedImageView.swift in Sources */,
 				E1280025210A2F2100B1EB6A /* HomeViewController.swift in Sources */,
+				E1B306DF21FF8127004C1AA0 /* Extensions.swift in Sources */,
 				E156920F21191FBA0040B5B1 /* RoundedShadowView.swift in Sources */,
 				E1280023210A2F2100B1EB6A /* AppDelegate.swift in Sources */,
 				E16DF54F211D18D2005CF76B /* ContainerViewController.swift in Sources */,
